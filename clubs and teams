@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <style>
+      a {
+        color: white;
+        background-color: transparent;
+        text-decoration: none;
+      }
+      
+      body {
+        background-color: #a02e2e;
+      }
+      
+      * {
+        box-sizing: border-box;
+      }
+      
+      .header,
+      .footer,
+      .menu,
+      .content {
+        font-family: raleway;
+      }
+      
+      .header,
+      .footer {
+        background-color: #7c0229;
+        color: white;
+        padding: 15px;
+        border: 5px solid #DAA520;
+        border-style: double;
+        align: center;
+      }
+      
+      .column {
+        float: left;
+        padding: 15px;
+      }
+      
+      .clearfix::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      .menu {
+        width: 25%;
+      }
+      
+      .content {
+        width: 75%;
+        color: white;
+      }
+      
+      .menu ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+      
+      .menu li {
+        padding: 2px;
+        margin-bottom: 16px;
+        background-color: #7c0229;
+        color: #ffffff;
+        border: 3px solid #DAA520;
+        border-style: double;
+      }
+      
+      .menu li:hover {
+        background-color: #DAA520;
+        font-size: 100%;
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <div class="header">
+      <h1> <center>Enver Creek Secondary School</center></h1>
+    </div>
+
+    <div class="clearfix">
+      <div class="column menu">
+        <ul>
+          <li id="link">
+            <a href="https://prasadshaneel.github.io/shaneel.html">Enver Creek Home page</a>
+          </li>
+          <li>Teams and clubs</li>
+          <li>Departments</li>
+        </ul>
+      </div>
+
+      <div class="column content">
+        <h1>Welcome to Enver Creek</h1>
+        <p>Enver Creek Secondary School is school that teaches courses like the regular academics, applied skills classes and sports along with fine arts. A notable graduate is Matthews jarvis who now is a poker player with his skills in math.
+          <br>
+
+
+          <h1>Contact and Location</h1> School District 36 (Surrey)
+          <br>14505-84 Avenue
+          <br>Surrey, B.C. V3S 8X2
+          <br>Tel: 604-543-8149
+          <br>Fax: 604-543-9762</p>
+        <img src="https://www.surreyschools.ca/schools/envercreek/Style%20Library/Images/114.jpg" />
+
+      </div>
+    </div>
+
+    <div class="footer">
+      <p>
+        <center>Shaneel Prasad</center>
+      </p>
+    </div>
+    <link rel="stylesheet" type="text/css" <link href="https://fonts.googleapis.com/css?family=Raleway:300" rel="stylesheet">
+  </body>
+
+</html>
+<!DOCTYPE html>
