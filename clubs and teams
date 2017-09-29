@@ -3,6 +3,16 @@
 
   <head>
     <style>
+    .article {
+  background-color: #ad0101;
+  width: 700px;
+  border: 7px solid #e8cf92;
+  border-style: double;
+  padding: 15px;
+  margin: 20px;
+  overflow;
+  auto;
+}
       a {
         color: white;
         background-color: transparent;
@@ -94,20 +104,14 @@
       </div>
 
       <div class="column content">
-        <h1>Welcome to Enver Creek</h1>
-        <p>Enver Creek Secondary School is school that teaches courses like the regular academics, applied skills classes and sports along with fine arts. A notable graduate is Matthews jarvis who now is a poker player with his skills in math.
-          <br>
-
-
-          <h1>Contact and Location</h1> School District 36 (Surrey)
-          <br>14505-84 Avenue
-          <br>Surrey, B.C. V3S 8X2
-          <br>Tel: 604-543-8149
-          <br>Fax: 604-543-9762</p>
-        <img src="https://www.surreyschools.ca/schools/envercreek/Style%20Library/Images/114.jpg" />
+        <h1>Welcome to Teams and Clubs</h1>
+        <div class="article">
+  <h1></h1>
+  <p></p>
+  <img src="">
+</div>
 
       </div>
-    </div>
 
     <div class="footer">
       <p>
