@@ -10,8 +10,7 @@
   border-style: double;
   padding: 15px;
   margin: 20px;
-  overflow;
-  auto;
+  float:left;
 }
       a {
         color: white;
@@ -75,7 +74,7 @@
         margin-bottom: 16px;
         background-color: #7c0229;
         color: #ffffff;
-        border: 3px solid #DAA520;
+        border: 5px solid #DAA520;
         border-style: double;
       }
       
@@ -83,7 +82,10 @@
         background-color: #DAA520;
         font-size: 100%;
       }
-
+.article img {
+float: right;
+  width:30%;
+height:30%;
     </style>
   </head>
 
@@ -107,8 +109,14 @@
         <h1>Welcome to Teams and Clubs</h1>
         <div class="article">
   <h1>Dance Team</h1>
-  <p>The dance team, lead by ms.Twigg is a place for anyone <br>interested in competitive dance. Enver has had there <br>dance team go to outbreak and other dance competitions before.</p>
-  <img src="">
+   <img  src="https://i.ytimg.com/vi/Dx_ScQImwys/maxresdefault.jpg">
+  <p>The dance team, lead by Ms.Twigg is a place for anyone <br>interested in competitive dance. Enver has had there <br>dance team go to outbreak and other dance competitions before.</p>
+  </div>
+          <div class="article">
+  <h1>Robotics</h1>
+   <img  src="https://www.surreyschools.ca/schools/envercreek/Extra-curricular/Clubs/Documents/robotics.jpg">
+  <p>Mr.Heradia is the leading teacher for Robotics and has an amense knowledge for <br>the craft and his team has gone to the championships before.</p>
+
 </div>
 
       </div>
