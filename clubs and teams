@@ -115,8 +115,13 @@ height:30%;
           <div class="article">
   <h1>Robotics</h1>
    <img  src="https://www.surreyschools.ca/schools/envercreek/Extra-curricular/Clubs/Documents/robotics.jpg">
-  <p>Mr.Heradia is the leading teacher for Robotics and has an amense knowledge for <br>the craft and his team has gone to the championships before.</p>
+  <p>Mr.Heradia is the leading teacher for Robotics<br> and has an amense knowledge for the craft and his team has gone to the championships before.</p>
 
+</div>
+          <div class="article">
+  <h1></h1>
+   <img  src="">
+  <p></p>
 </div>
 
       </div>
@@ -131,4 +136,3 @@ height:30%;
   </body>
 
 </html>
-<!DOCTYPE html>
