@@ -1,122 +1,96 @@
 <!DOCTYPE html>
 <html>
+<title>Rahul's Roti</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1,h5 {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+.bgimg {
+    background-image: url('http://www.wilko.com/content/ebiz/wilkinsonplus/invt/0234587/0234587_l.jpg');
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+     color: #CD6476;
+}
 
-  <head>
-    <style>
-      #p1 {
-        width: 70%;
-        margin-left: 15%;
-        margin-right: 15%;
-      }
-      
-      #link {
-        color: white;
-        width: 70%;
-        margin-left: 15%;
-        margin-right: 15%;
-      }
-      
-      #img {
-        width: 70%;
-        margin-left: 15%;
-        margin-right: 15%;
-      }
-      
-      div.everything {
-        color: white;
-      }
-      
-      #heading1 {
-        text-align: center;
-        font-family: Trebuchet MS;
-      }
-      
-      #heading2 {
-        text-align: center;
-        font-family: Trebuchet MS;
-      }
-      
-      #table1 {
-        width: 70%;
-        margin-left: 15%;
-        margin-right: 15%;
-      }
-      
-      table {
-        font-family: sans-serif;
-        width: 75%;
-      }
-      
-      th {
-        color: white;
-        font-size: 30px;
-      }
-      
-      table,
-      th,
-      td {
-        border: 3px solid white;
-      }
-      
-      body {
-        background-color: #33C1FF;
-      }
-      
-      #time {
-        text-align: center;
-      }
+</style>
+<body>
 
-    </style>
-  </head>
-  <div class="everything">
+<div class="bgimg">
+  <div class="w3-display-middle w3-jumbo">
+    <p>Rahul's roti</p>
+    
+    
+    
 
-    <body>
+  </div>
+  <div class="w3-display-topleft w3-container w3-xlarge">
+    <p><button onclick="document.getElementById('menu').style.display='block'" class="w3-button ">menu</button></p>
+    <p><button onclick="document.getElementById('contact').style.display='block'" class="w3-button ">Locations</button></p>
+  </div>
+  <div class="w3-display-bottomleft w3-container">
+    <p class="w3-xlarge">monday - friday 10am-7pm | saturday 1pm-7pm</p>
+  </div>
+</div>
 
-      <h1 id=heading1>The Enver Creek Site</h1>
-      <h2 id=heading2>By Shaneel</h2>
-      <table id=table1>
-        <tr>
-          <th>time</th>
-          <th>class</th>
-          <th>teacher</th>
-        </tr>
-        <tr>
-          <td id="time">8:30-9:50</td>
-          <td id="time">Social Studies</td>
-          <td id="time">Ms.China</td>
-        </tr>
-        <tr>
-          <td id="time">9:55-10:05</td>
-          <td id="time">Tag</td>
-          <td id="time">Ms.Aslum</td>
-        </tr>
-        <tr>
-          <td id="time">10:10-11:30</td>
-          <td id="time">P.E</td>
-          <td id="time">Mr.Green</td>
-        </tr>
-        <tr>
-          <td id="time">12:15-1:35</td>
-          <td id="time">Math</td>
-          <td id="time">Mr.tecsh</td>
-        </tr>
-        <tr>
-          <td id="time">1:40-2:58</td>
-          <td id="time">Info Tech</td>
-          <td id="time">Mr.Brown</td>
-        </tr>
-      </table>
-      <title>Shaneel's Enver site</title>
-      <a id=link href="https://www.surreyschools.ca/schools/envercreek/Pages/default.aspx">Enver Creek website
- <img id=img
- src="https://www.surreyschools.ca/schools/envercreek/Style%20Library/Images/114.jpg"/>
- </a>
-      <p id=p1>
-        Enver Creek Secondary School is school that teaches courses
-        <br> like the regular academics, applied skills classes and sports
-        <br>along with fine arts. A notable graduate is Matthews jarvis
-        <br>who now is a poker player with his skills in math
-      </p>
-    </body>
+<!-- Menu Modal -->
+<div id="menu" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom">
+    <div class="w3-container w3-black w3-display-container">
+      <span onclick="document.getElementById('menu').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+      <h1>Starters</h1>
+    </div>
+    <div class="w3-container">
+      <h5>Tomato Soup <b>$2.50</b></h5>
+      <h5>Chicken Salad <b>$3.50</b></h5>
+      <h5>Bread and Butter <b>$1.00</b></h5>
+    </div>
+    <div class="w3-container w3-black">
+      <h1>Main Courses</h1>
+    </div>
+    <div class="w3-container">
+      <h5>Grilled Fish and Potatoes <b>$8.50</b></h5>
+      <h5>Italian Pizza <b>$5.50</b></h5>
+      <h5>Veggie Pasta <b>$4.00</b></h5>
+      <h5>Chicken and Potatoes <b>$6.50</b></h5>
+      <h5>Deluxe Burger <b>$5.00</b></h5>
+    </div>
+    <div class="w3-container w3-black">
+      <h1>Desserts</h1>
+    </div>
+    <div class="w3-container">
+      <h5>Fruit Salad <b>$2.50</b></h5>
+      <h5>Ice cream <b>$2.00</b></h5>
+      <h5>Chocolate Cake <b>$4.00</b></h5>
+      <h5>Cheese <b>$5.50</b></h5>
+    </div>
+    <div class="w3-container w3-black">
+      <h1>BeveRAGEs</h1>
+    </div>
+    <div class="w3-container">
+      <h5>Pepsi ©  Strong Shot™ <b>₫56821.25</b></h5>
+      <h5>Pepsi ©  Salty Watermelon™ <b>₫56821.25</b></h5>
+      <h5>Suntory ©  BOSS coffee™ <b>₫56821.25</b></h5>
+    </div>
+  </div>
+</div>
 
+<!-- Contact Modal -->
+<div id="contact" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom">
+    <div class="w3-container w3-black">
+      <span onclick="document.getElementById('contact').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+      <h1>locations</h1>
+    </div>
+    <div class="w3-container">
+      <p>pppppppppppppppppppppppppppppppp<br>ppppppppppppppppppppppppppp</p>
+
+    </div>
+  </div>
+</div>
+
+</body>
 </html>
