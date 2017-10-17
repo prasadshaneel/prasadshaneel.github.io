@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <style>
+      a {
+        color: white;
+        background-color: transparent;
+        text-decoration: none;
+      }
+      
+      body {
+        background-image: url(http://www.vancitybuzz.com/wp-content/uploads/2015/01/Downtown-Vancouver-800x500.jpg);
+        min-height: 100%;
+        background-position: center;
+        background-size: cover;
+        color: white;
+        background-repeat: no-repeat;
+      }
+      
+      * {
+        box-sizing: border-box;
+      }
+      
+      .header,
+      .footer,
+      .menu,
+      .content {
+        font-family: raleway;
+      }
+      
+      .header,
+      .footer {
+        background-color: #96665b;
+        color: white;
+        padding: 1px;
+        align: center;
+        opacity: 0.9;
+      }
+      
+      .column {
+        float: top;
+        padding: 15px;
+        overflow: hidden;
+      }
+      
+      .clearfix::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      .menu {
+        width: 25%;
+      }
+      
+      .content {
+        width: 70%;
+        color: white;
+        font-size: 20px;
+      }
+      
+      .menu ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        color: white;
+        overflow: hidden;
+      }
+      
+      .menu li {
+        padding: 10px;
+        margin-bottom: 16px;
+        background-color: #96665b;
+        opacity: 0.9;
+      }
+      
+      .menu li:hover {
+        background-color: #96665b;
+        opacity: 1;
+      }
+      
+      #t1 {
+        font-size: 40px;
+        text-align: center;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="header">
+      <p id=t1>VANCITY SOCIAL
+        <br>HOUSE</p>
+
+    </div>
+
+    <div class="clearfix">
+      <div class="column menu">
+        <ul>
+          <li><a href="https://prasadshaneel.github.io/clubsandteams.html">Menu</a>
+          </li>
+
+          <li><a href="https://prasadshaneel.github.io/departments.html">Our locations</a></li>
+        </ul>
+      </div>
+
+      <div class="column content">
+        <h1></h1>
+        <p></p>
+
+
+      </div>
+    </div>
+
+    <div class="footer">
+      <p>
+        <center>Shaneel Prasad</center>
+      </p>
+    </div>
+    <link rel="stylesheet" type="text/css" <link href="https://fonts.googleapis.com/css?family=Raleway:300" rel="stylesheet">
+  </body>
+
+</html>
