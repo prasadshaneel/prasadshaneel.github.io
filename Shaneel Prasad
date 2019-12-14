@@ -7,7 +7,7 @@
     h1,
     h5 {
       font-family: "Raleway", sans-serif;
-    }
+    } 
     
     html {
       background-size: cover;
