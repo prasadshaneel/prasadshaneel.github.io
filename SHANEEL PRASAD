@@ -10,14 +10,16 @@
     }
     
     html {
-      background: url('https://lp-cms-production.imgix.net/2019-06/27860479.jpg?fit=crop&q=40&sharp=10&vib=20&auto=format&ixlib=react-8.6.4') no-repeat center fixed;
+     
       background-size: cover;
       repeat:norepeat
     }
     
-    body {
-      color: black;
+    body { 
+      background: url('https://wallpaperaccess.com/full/469536.jpg') no-repeat center fixed;
+      color: white;
     }
+    
     
     #t1 {
       font-size: 80px;
@@ -29,7 +31,7 @@
       margin: 0;
       padding: 0;
       overflow: hidden;
-      background-color: #333;
+      background-color: #000111;
     }
     
     li {
@@ -74,19 +76,14 @@
 
       <div>
         <p id=t1>
-  
           <br>SHANEEL PRASAD
         </p>
 
       </div>
-      <div id=t3>
 			<br>
-      		<br>
-      <p>Vancity' Finest
-      </p>
-      </div>
-      <div id=times1>
-      </div>
+      <br>
+        <p id=t2> ---------- 
+        </p>
     </div>
 
 
